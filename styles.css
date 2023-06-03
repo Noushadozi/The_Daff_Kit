@@ -1,0 +1,139 @@
+body {
+    text-align: center;
+    background-color: #283149;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #dbedf3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #da0463;
+  }
+  
+  footer {
+    color: #dbedf3;
+    font-family: sans-serif;
+  }
+  
+  .a {
+    background-image: url("images/image_1.jpeg");
+    background-size: cover;
+  }
+  
+  .s {
+    background-image: url("images/image_2.jpeg");
+    background-size: cover;
+  }
+  
+  .d {
+    background-image: url("images/image_3.jpg");
+    background-size: cover;
+  }
+  
+  .f {
+    background-image: url("images/image_4.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .g {
+    background-image: url("images/image_5.jpg");
+    background-size: cover;
+  }
+  
+  .h {
+    background-image: url("images/image_6.jpg");
+    background-size: cover;
+  }
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .daff {
+    outline: none;
+    border: 10px solid #404b69;
+    font-size: 4rem;
+    font-family: "Arvo", cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #da0463;
+    text-shadow: 3px 0 #dbedf3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .daff {
+      font-size: 4rem;
+      width: 150px;
+      height: 150px;
+      margin: 10px;
+    }
+  }
+  
+  
+  .accordion {
+    border: 1px solid #ccc;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion-header {
+    color: #ccc;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    font-family: "Arvo", cursive;
+  }
+  
+  .accordion-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border: solid #da0463;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transition: transform 0.3s;
+  }
+  
+  .accordion-arrow.active {
+    transform: translateY(-50%) rotate(45deg);
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    display: none;
+    color:#dbedf3;
+    font-family: sans-serif;
+  }
+  
+  .accordion-item.active .accordion-content {
+    display: block;
+  }
+  
